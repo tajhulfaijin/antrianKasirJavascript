@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>SIMULASI</title>
+        <link rel="stylesheet" href="css/style.css">
+            <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+            <script type="text/javascript" src="js/animasi.js"></script>
+    </head>
+    <body>
+        <div id="option">
+            <span>Jumlah Tamu :</span>
+            <input type="text" id="jml-tamu" value="0">
+                <button id="plus"> Tambah Orang </button>
+                &nbsp;|&nbsp;
+                <span>Perbandingan Speed Chanel A & Chanel B</span>
+                <input type="text" id="speedA" value="1" size="1"> &nbsp;:&nbsp;
+                    <input type="text" id="speedB" value="1" size="1">
+                        &nbsp;|&nbsp;
+                        <button id="mulai"> MULAI </button>
+                        &nbsp;|&nbsp;
+                        <button id="reset"> Restart </button>
+                        </div>
+                        <div style="clear: both;"></div>
+                        <div id="tunggu">
+                            <p>Ruang Tunggu masih kosong</p>
+                            <!--<div class="box-wait">
+                                <div class="user">
+                                    <img class="active_user" src="img/user.png" alt=""><span>3</span>
+                                </div>
+                            </div>-->
+                        </div>
+
+                        <div id="chanel-box">
+                            <div id="chanelA" class="chanel">
+                                <p>Chanel 1</p>
+                                <div class="box-way">
+                                    <!--            <div class="user"><img class="active_user" src="img/user.png" alt=""><span>1</span></div>-->
+                                </div>
+                                <div class="box-way">
+                                    <!--            <div class="user"><img class="active_user" src="img/user.png" alt=""><span>1</span></div>-->
+                                </div>
+                                <div class="box-way">
+                                    <!--            <div class="user"><img class="active_user" src="img/user.png" alt=""><span>1</span></div>-->
+                                </div>
+                            </div>
+
+                            <div id="chanelB" class="chanel" style="clear: both;">
+                                <p>Chanel 2</p>
+                                <div class="box-way">
+                                    <!--            <div class="user"><img class="active_user" src="img/user.png" alt=""><span>1</span></div>-->
+                                </div>
+                                <div class="box-way">
+                                    <!--            <div class="user"><img class="active_user" src="img/user.png" alt=""><span>1</span></div>-->
+                                </div>
+                                <div class="box-way">
+                                    <!--            <div class="user"><img class="active_user" src="img/user.png" alt=""><span>1</span></div>-->
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="kasir">
+                            <p id="pengumuman"><span>Semua Kasir Kosong</span></p>
+                            <div class="box-kasir" id="kasirA">
+                                <!--        <div class="user"><img class="active_user" src="img/user.png" alt=""><span>1</span></div>-->
+                            </div>
+                            <div class="box-kasir" id="kasirB">
+                                <!--        <div class="user"><img class="active_user" src="img/user.png" alt=""><span>1</span></div>-->
+                            </div>
+                            <div class="box-kasir" id="kasirC"></div>
+
+                            <div style="clear: both;">
+                                <div class="box-time-kasir" id="timeKasirA"></div>
+                                <div class="box-time-kasir" id="timeKasirB"></div>
+                                <div class="box-time-kasir" id="timeKasirC"></div>
+                            </div>
+
+                            <div style="clear: both;">
+                                <div class="kasir"><img class="active_user" src="img/cashier.jpg" alt=""></div>
+                                <div class="kasir"><img class="active_user" src="img/cashier.jpg" alt=""></div>
+                                <div class="kasir"><img class="active_user" src="img/cashier.jpg" alt=""></div>
+                            </div>
+
+                            <div style="clear: both;">
+                                <div class="kasir">KASIR A</div>
+                                <div class="kasir">KASIR B</div>
+                                <div class="kasir">KASIR C</div>
+                            </div>
+
+                        </div>
+
+                        <div id="exit">
+                            <div class="box-exit" id="pintu1"></div>
+                            <div class="box-exit" id="pintu2"></div>
+
+                            <div style="clear: both;">
+                                <div class="label">PINTU KELUAR 1</div>
+                                <div class="label">PINTU KELUAR 2</div>
+                            </div>
+                        </div>
+
+
+    </body>
+    </html>

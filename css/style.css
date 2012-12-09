@@ -1,0 +1,143 @@
+#option{
+    float: left;
+    border: 1px solid;
+    height: 30px;
+    width: 98%;
+    padding: 10px;
+}
+
+#tunggu{
+    float: left;
+    border: 1px solid;
+    height: auto;
+    min-height: 530px;
+    max-height: 500px;
+    width: 400px;
+    padding: 10px;
+    overflow-y: auto;
+}
+.box-wait{
+    margin: 5px;
+    float: left;
+    border: 1px solid;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.box-wait img{
+    width: 70px;
+}
+
+#chanel-box{
+    float: left;
+    border: 1px solid;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 0 10px;
+
+}
+.chanel{
+    float: left;
+    border: 1px solid;
+    height: auto;
+    width: 325px;
+    padding: 10px;
+    margin: 5px 10px;
+}
+#box{
+}
+
+.box-way{
+    margin: 5px;
+    float: left;
+    border: 1px solid;
+    padding: 5px;
+    height: 75px;
+    width: 85px;
+    text-align: center;
+}
+.box-way img{
+    width: 70px;
+}
+
+#kasir{
+    float: left;
+    margin: 0 10px;
+    border: 1px solid;
+    height: auto;
+    width: 370px;
+    padding: 10px;
+}
+
+.box-kasir{
+    margin: 5px;
+    float: left;
+    border: 1px solid;
+    height: auto;
+    min-height: 100px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+.box-kasir img{
+    width: 80px;
+}
+
+.box-time-kasir{
+    margin: 5px;
+    float: left;
+    border: 1px solid;
+    min-height: 20px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+.kasir{
+    margin: 5px;
+    float: left;
+    border: 1px solid;
+    min-height: 20px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+.kasir img{
+    width: 80px;
+}
+
+
+#exit{
+    float: left;
+    margin-top: 5px;
+    margin-left: 362px;
+    border: 1px solid;
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+.box-exit{
+    margin: 5px;
+    float: left;
+    border: 1px solid;
+    padding: 5px;
+    height: 75px;
+    width: 80px;
+    text-align: center;
+}
+.box-exit img{
+    width: 70px;
+}
+
+
+.label{
+    margin: 5px;
+    float: left;
+    border: 1px solid;
+    min-height: 20px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    font-size: 9pt;
+}
